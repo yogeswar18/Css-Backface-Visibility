@@ -15,22 +15,28 @@
     transition: transform 1s;
     transform-style: preserve-3d;
 }
+.content img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
 .front,
 .back{
     width:100%;
     height: 100%;
     position: absolute;
-    background: greenyellow;
-    color:black;
+    /* background: greenyellow;
+    color:black; */
     backface-visibility: hidden;
-    font-size: 60px;
+    /* font-size: 60px;
     text-align: center;
     line-height: 300px;
-    border-radius: 15px;
+    border-radius: 15px; */
+    background-size: cover;
 }
 .back{
-    background:black;
-    color:greenyellow;
+    /* background:black;
+    color:greenyellow; */
     transform: rotateY(180deg);
   
 }
